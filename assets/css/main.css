@@ -1,0 +1,9 @@
+/* line 1, ../sass/components/_block.sass */
+.block {
+  width: 100px;
+}
+
+/* line 3, ../sass/main.sass */
+body {
+  background-color: red;
+}
