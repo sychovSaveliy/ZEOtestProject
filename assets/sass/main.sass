@@ -1,4 +1,40 @@
+@import "vars"
+@import "mixins"
+
 @import "components/block"
 
-body
-	background-color: red
+
+*
+	+box-sizing()
+html
+	height: 100%
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary 
+	display: block
+
+body 
+	font: 12px/18px Arial, sans-serif
+	height: 100%
+
+.wrapper 
+	width: 100%
+	min-height: 100%
+	height: auto!important
+	height: 100%
+
+
+@import "blocks/header"
+
+
+
+
+.content 
+	padding: 0 0 100px
+
+.footer
+	margin: -100px auto 0
+	min-width: 480px
+	max-width: 1000px
+	height: 100px
+	background: #BFF08E
+	position: relative

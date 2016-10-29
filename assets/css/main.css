@@ -1,9 +1,63 @@
 /* line 1, ../sass/components/_block.sass */
-.block {
-  width: 100px;
+.container, .container--stretch {
+  padding: 8px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-/* line 3, ../sass/main.sass */
+/* line 7, ../sass/components/_block.sass */
+.container--stretch {
+  padding: 0px;
+}
+
+/* line 7, ../sass/main.sass */
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 9, ../sass/main.sass */
+html {
+  height: 100%;
+}
+
+/* line 12, ../sass/main.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+/* line 15, ../sass/main.sass */
 body {
-  background-color: red;
+  font: 12px/18px Arial, sans-serif;
+  height: 100%;
+}
+
+/* line 19, ../sass/main.sass */
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+}
+
+/* line 1, ../sass/blocks/_header.sass */
+.header {
+  height: 150px;
+  background: #FFE680;
+}
+
+/* line 31, ../sass/main.sass */
+.content {
+  padding: 0 0 100px;
+}
+
+/* line 34, ../sass/main.sass */
+.footer {
+  margin: -100px auto 0;
+  min-width: 480px;
+  max-width: 1000px;
+  height: 100px;
+  background: #BFF08E;
+  position: relative;
 }
