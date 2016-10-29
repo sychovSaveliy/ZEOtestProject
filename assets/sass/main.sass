@@ -6,6 +6,12 @@
 
 *
 	+box-sizing()
+
+
+@font-face 
+	font-family: ProximaNova
+	src: url(../font/ProximaNova-Light.woff)
+
 html
 	height: 100%
 
@@ -13,8 +19,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 	display: block
 
 body 
-	font: 12px/18px Arial, sans-serif
+	font: 12px/18px ProximaNova, sans-serif
 	height: 100%
+	color: $mainFontColor
 
 .wrapper 
 	width: 100%
@@ -24,9 +31,6 @@ body
 
 
 @import "blocks/header"
-
-
-
 
 .content 
 	padding: 0 0 100px

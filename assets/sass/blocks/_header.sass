@@ -1,3 +1,35 @@
 .header
-	height: 150px
-	background: #FFE680
+	background-color: #fafdff
+	height: $header-height
+	box-shadow: $shadowMain
+
+.header__container
+	height: 100%
+	position: relative
+	align-items: center
+	.header__triangle
+		color: #fafdff
+		font-size: 30px
+		transform: rotate(135deg)
+		position: absolute
+		text-shadow: 1px -1px 2px rgba(0, 0, 0, 0.5)
+		top: calc(100% - 11px)
+		left: 18%
+
+
+.header__logo
+	height: 100%
+	width: 25%
+	display: flex
+	align-items: center
+	.logo-img
+		max-width: 100%
+		cursor: pointer
+
+.header__slogan
+	font-size: 32px
+
+.slogan__first-letter
+	border: 1px solid #00b3ff
+	border-radius: 8px
+	padding: 2px 8px
