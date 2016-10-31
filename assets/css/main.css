@@ -97,6 +97,11 @@ body {
 
 .steps__container {
   width: 35%;
+  align-items: center;
+}
+.steps__container a.or-click {
+  color: #00a9ff;
+  margin: 8px 0;
 }
 .steps__container .step {
   width: 100%;
@@ -138,6 +143,32 @@ body {
   text-transform: uppercase;
   background-position: 95% 50%;
   cursor: pointer;
+}
+
+.mac__container .mac__main-img {
+  width: 100%;
+}
+
+.mac__image-container {
+  justify-content: center;
+}
+
+.mac__downloads {
+  width: 200px;
+  height: 55px;
+  color: #00aaff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/down_on_week.png);
+  background-repeat: no-repeat;
+  font-size: 48px;
+  padding-top: 18px;
+}
+
+.mac__rating {
+  width: 200px;
+  height: 55px;
 }
 
 .footer {
