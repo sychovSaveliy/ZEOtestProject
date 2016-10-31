@@ -49,6 +49,10 @@ body {
   height: 100%;
 }
 
+.main-color {
+  color: #00aaff;
+}
+
 .header {
   background-color: #fafdff;
   height: 90px;
@@ -215,6 +219,20 @@ body {
 }
 .par-4:hover {
   background-image: url(../images/partners/par_4_hover.png);
+}
+
+.tools-icons {
+  background-color: #f3f6f8;
+}
+
+.tools__heading {
+  font-size: 24px;
+  text-align: center;
+  margin: 36px 0;
+}
+
+.icons__container {
+  width: 70%;
 }
 
 .footer {
