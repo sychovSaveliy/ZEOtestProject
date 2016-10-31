@@ -97,6 +97,7 @@ body {
 
 .steps-block {
   background-color: #fff;
+  padding-top: 16px;
 }
 
 .steps__container {
@@ -252,6 +253,9 @@ svg use, svg image {
   justify-content: space-around;
   border-bottom: 1px solid #dbdbdb;
   background-color: #f8fafb;
+}
+.icon-name img {
+  width: 20%;
 }
 .icon-name h3 {
   text-transform: uppercase;
